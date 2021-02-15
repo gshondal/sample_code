@@ -1,0 +1,16 @@
+The following sample code is for illustrative purposes only, and must not be used in production environments.
+
+Not a docker expert
+
+In the Dockerfile at the ENTRYPOINT update:
+
+BucketA to be source bucket name
+BucketB to be destination bucket name
+KEY to be key that exists in source bucket
+
+
+Linux: 
+$ sudo docker run -v ~/.aws:/root/.aws:ro repo
+
+Windows:
+>docker run -v c:/Users/Username/.aws:/root/.aws:ro repo
